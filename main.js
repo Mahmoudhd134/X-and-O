@@ -11,9 +11,9 @@ gameBord.addEventListener("mousedown", (e) => e.preventDefault());
 gameOverCover.addEventListener("mousedown", (e) => e.preventDefault());
 wins.addEventListener("mousedown", (e) => e.preventDefault());
 
-gameBord.addEventListener("touchstart", (e) => e.preventDefault());
-gameOverCover.addEventListener("touchstart", (e) => e.preventDefault());
-wins.addEventListener("touchstart", (e) => e.preventDefault());
+// gameBord.addEventListener("touchstart", (e) => e.preventDefault());
+// gameOverCover.addEventListener("touchstart", (e) => e.preventDefault());
+// wins.addEventListener("touchstart", (e) => e.preventDefault());
 
 for (let i = 0; i < 9; i++) {
   let div = document.createElement("div");
