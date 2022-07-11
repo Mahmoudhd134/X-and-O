@@ -6,6 +6,7 @@ let boxes = gameBord.childNodes;
 let gameOverCover = document.querySelector(".game-over");
 let wins = document.querySelector(".wins");
 let reset = document.querySelector(".reset");
+gameBord.addEventListener("mousedown", (e) => e.preventDefault());
 
 for (let i = 0; i < 9; i++) {
   let div = document.createElement("div");
